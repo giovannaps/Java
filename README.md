@@ -50,7 +50,7 @@ public class Main {
       
        System.out.println();
       
-       System.out.println("Todos os múltiplos de 3 que NÃO terminam em 3 entre 1 e x: ");
+       System.out.println("Todos os múltiplos de 3 que NÃO terminam em 3 entre 1 e 1000: ");
       multiplosDe3();
       
       
