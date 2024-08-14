@@ -22,10 +22,9 @@ public class Main {
 
   }
   public static void multiplosDe3() {
-    int divisor = 10;
    
  for (int i = 1; i < 1000; i++) {
-  Boolean numeroProibido = i % divisor == 3; 
+  Boolean numeroProibido = i % 10 == 3; 
     if (i % 3 == 0 && !numeroProibido){
       System.out.print(i);  
      System.out.print(",");
